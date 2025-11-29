@@ -1,0 +1,50 @@
+@model IEnumerable<BanVePhimOnline.Models.Movie>
+
+@{
+    ViewData["Title"] = "Quản Lý Phim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Quản Lý Phim</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm Mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tiêu Đề</th>
+            <th>Thể Loại</th>
+            <th>Thời Lượng</th>
+            <th>Ngày Chiếu</th>
+            <th>Độ Tuổi</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DurationMinutes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReleaseDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AgeRating)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Chi Tiết</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

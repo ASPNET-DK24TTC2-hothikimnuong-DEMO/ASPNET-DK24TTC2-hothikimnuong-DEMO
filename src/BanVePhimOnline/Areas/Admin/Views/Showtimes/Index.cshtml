@@ -1,0 +1,46 @@
+@model IEnumerable<BanVePhimOnline.Models.Showtime>
+
+@{
+    ViewData["Title"] = "Quản Lý Lịch Chiếu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Quản Lý Lịch Chiếu</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm Mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Phim</th>
+            <th>Rạp / Phòng</th>
+            <th>Thời Gian</th>
+            <th>Giá Vé</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Movie.Title)
+            </td>
+            <td>
+                @item.CinemaHall.Cinema.Name - @item.CinemaHall.Name
+            </td>
+            <td>
+                @item.StartTime.ToString("dd/MM/yyyy HH:mm")
+            </td>
+            <td>
+                @item.Price.ToString("N0") đ
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Chi Tiết</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

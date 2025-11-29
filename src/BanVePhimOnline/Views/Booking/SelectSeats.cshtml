@@ -1,0 +1,91 @@
+@model BanVePhimOnline.Models.Showtime
+
+@{
+    ViewData["Title"] = "Chọn Ghế";
+    var bookedSeats = ViewBag.BookedSeats as List<string>;
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-warning mb-4">Chọn Ghế: @Model.Movie.Title</h2>
+    <div class="text-center mb-4 text-white">
+        <h5>@Model.CinemaHall.Cinema.Name - @Model.CinemaHall.Name</h5>
+        <p>Suất chiếu: @Model.StartTime.ToString("dd/MM/yyyy HH:mm")</p>
+    </div>
+
+    <div class="d-flex justify-content-center mb-4">
+        <div class="me-4"><span class="badge bg-secondary border border-light" style="width: 30px; height: 30px; display: inline-block;"></span> <span class="text-white">Đã đặt</span></div>
+        <div class="me-4"><span class="badge btn-outline-success border border-success" style="width: 30px; height: 30px; display: inline-block;"></span> <span class="text-white">Trống</span></div>
+        <div><span class="badge bg-success" style="width: 30px; height: 30px; display: inline-block;"></span> <span class="text-white">Đang chọn</span></div>
+    </div>
+
+    <div class="container">
+        <div class="screen mb-5 text-center bg-light text-dark p-2 fw-bold" style="opacity: 0.8; letter-spacing: 10px;">MÀN HÌNH</div>
+        
+        <form asp-action="Checkout" method="post" id="bookingForm">
+            <input type="hidden" name="showtimeId" value="@Model.Id" />
+            <input type="hidden" name="selectedSeats" id="selectedSeatsInput" />
+            
+            <div class="d-flex flex-wrap justify-content-center mb-5">
+                @for (int row = 1; row <= 5; row++) 
+                {
+                    <div class="w-100 text-center mb-2">
+                        @for (int col = 1; col <= 10; col++) 
+                        {
+                            string seatNum = $"{(char)('A' + row - 1)}{col}";
+                            bool isBooked = bookedSeats != null && bookedSeats.Contains(seatNum);
+                            string btnClass = isBooked ? "btn-secondary disabled" : "btn-outline-success seat-btn";
+                            
+                            <button type="button" class="btn @btnClass m-1" style="width: 45px;" data-seat="@seatNum" @(isBooked ? "disabled" : "")>
+                                @seatNum
+                            </button>
+                        }
+                    </div>
+                }
+            </div>
+
+            <div class="card bg-dark border-warning text-white">
+                <div class="card-body text-center">
+                    <h4>Ghế đã chọn: <span id="selectedSeatsDisplay" class="text-warning">Chưa chọn</span></h4>
+                    <h4>Tổng tiền: <span id="totalPrice" class="text-warning">0 đ</span></h4>
+                    <button type="submit" class="btn btn-danger btn-lg mt-3 px-5" id="checkoutBtn" disabled>Thanh Toán</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const pricePerSeat = @Model.Price;
+        const selectedSeats = new Set();
+        const seatBtns = document.querySelectorAll('.seat-btn');
+        const selectedSeatsInput = document.getElementById('selectedSeatsInput');
+        const selectedSeatsDisplay = document.getElementById('selectedSeatsDisplay');
+        const totalPriceDisplay = document.getElementById('totalPrice');
+        const checkoutBtn = document.getElementById('checkoutBtn');
+
+        seatBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const seat = this.getAttribute('data-seat');
+                if (selectedSeats.has(seat)) {
+                    selectedSeats.delete(seat);
+                    this.classList.remove('btn-success');
+                    this.classList.add('btn-outline-success');
+                } else {
+                    selectedSeats.add(seat);
+                    this.classList.remove('btn-outline-success');
+                    this.classList.add('btn-success');
+                }
+                updateUI();
+            });
+        });
+
+        function updateUI() {
+            const seatsArr = Array.from(selectedSeats);
+            selectedSeatsInput.value = seatsArr.join(',');
+            selectedSeatsDisplay.textContent = seatsArr.length > 0 ? seatsArr.join(', ') : 'Chưa chọn';
+            totalPriceDisplay.textContent = (seatsArr.length * pricePerSeat).toLocaleString('vi-VN') + ' đ';
+            checkoutBtn.disabled = seatsArr.length === 0;
+        }
+    </script>
+}

@@ -1,0 +1,68 @@
+@model BanVePhimOnline.Models.Booking
+
+@{
+    ViewData["Title"] = "Chi Tiết Đặt Vé";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Chi Tiết Đặt Vé</h1>
+
+<div>
+    <h4>Thông Tin Vé #@Model.Id</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Khách Hàng
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.User.UserName (@Model.User.FullName)
+        </dd>
+        <dt class = "col-sm-2">
+            Phim
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Showtime.Movie.Title
+        </dd>
+        <dt class = "col-sm-2">
+            Rạp / Phòng
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Showtime.CinemaHall.Cinema.Name - @Model.Showtime.CinemaHall.Name
+        </dd>
+        <dt class = "col-sm-2">
+            Suất Chiếu
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Showtime.StartTime.ToString("dd/MM/yyyy HH:mm")
+        </dd>
+        <dt class = "col-sm-2">
+            Ngày Đặt
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.BookingDate.ToString("dd/MM/yyyy HH:mm")
+        </dd>
+        <dt class = "col-sm-2">
+            Tổng Tiền
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.TotalAmount.ToString("N0") đ
+        </dd>
+        <dt class = "col-sm-2">
+            Trạng Thái
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Status
+        </dd>
+    </dl>
+    
+    <h4>Danh Sách Ghế</h4>
+    <ul>
+        @foreach(var seat in Model.BookingDetails)
+        {
+            <li>Ghế: <strong>@seat.SeatNumber</strong> - Giá: @seat.Price.ToString("N0") đ</li>
+        }
+    </ul>
+</div>
+<div>
+    <a asp-action="Index">Quay Lại Danh Sách</a>
+</div>

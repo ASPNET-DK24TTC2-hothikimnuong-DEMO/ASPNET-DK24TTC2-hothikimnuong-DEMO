@@ -1,0 +1,31 @@
+@model BanVePhimOnline.Models.Booking
+
+@{
+    ViewData["Title"] = "Xác Nhận Đặt Vé";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center text-warning mb-4">Xác Nhận Đặt Vé</h1>
+
+    <div class="card bg-dark text-white border-secondary mx-auto" style="max-width: 600px;">
+        <div class="card-header border-secondary">
+            <h4 class="mb-0">Thông Tin Đặt Vé</h4>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title text-info">Phim: @Model.Showtime.Movie.Title</h5>
+            <hr class="bg-secondary">
+            <p class="card-text"><strong>Rạp:</strong> @Model.Showtime.CinemaHall.Cinema.Name</p>
+            <p class="card-text"><strong>Phòng chiếu:</strong> @Model.Showtime.CinemaHall.Name</p>
+            <p class="card-text"><strong>Thời gian:</strong> @Model.Showtime.StartTime.ToString("dd/MM/yyyy HH:mm")</p>
+            <p class="card-text"><strong>Ghế:</strong> <span class="text-warning">@string.Join(", ", Model.BookingDetails.Select(bd => bd.SeatNumber))</span></p>
+            <hr class="bg-secondary">
+            <h4 class="text-end text-danger">Tổng tiền: @Model.TotalAmount.ToString("#,##0") đ</h4>
+            
+            <form asp-action="ConfirmPayment" method="post" class="mt-4 text-end">
+                <input type="hidden" name="bookingId" value="@Model.Id" />
+                <a asp-action="SelectSeats" asp-route-showtimeId="@Model.ShowtimeId" class="btn btn-outline-light me-2">Quay Lại</a>
+                <button type="submit" class="btn btn-success btn-lg">Xác Nhận Thanh Toán</button>
+            </form>
+        </div>
+    </div>
+</div>

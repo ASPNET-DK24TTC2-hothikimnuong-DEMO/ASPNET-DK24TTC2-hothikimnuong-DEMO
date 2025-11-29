@@ -1,0 +1,565 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\wwwroot\\lib\\bootstrap\\license||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\license||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\views\\bookings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\views\\bookings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\views\\bookings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\views\\bookings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\migrations\\20251124070814_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:migrations\\20251124070814_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\models\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:models\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\models\\cinemahall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:models\\cinemahall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\controllers\\showtimescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\controllers\\showtimescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\controllers\\cinemahallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\controllers\\cinemahallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|c:\\users\\user\\downloads\\banvephimonline\\areas\\admin\\controllers\\cinemascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7E01E4-5B2F-9B8A-5A4D-4D225C08C1B2}|BanVePhimOnline.csproj|solutionrelative:areas\\admin\\controllers\\cinemascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bootstrap-reboot.css",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ViewState": "AgIAABEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-26T07:42:07.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "bootstrap-utilities.css",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "ViewState": "AgIAAN0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-26T07:41:47.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LICENSE",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\lib\\bootstrap\\LICENSE",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\LICENSE",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\lib\\bootstrap\\LICENSE",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\LICENSE",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-26T07:41:34.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Bookings\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Bookings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Bookings\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Bookings\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T07:41:28.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Bookings\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Bookings\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Bookings\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Bookings\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T07:41:19.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Bookings\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Bookings\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Bookings\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Bookings\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T07:41:17.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Movies\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Movies\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Movies\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Movies\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T07:41:09.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Movies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Movies\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Movies\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Movies\\Edit.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T07:41:01.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T07:40:52.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T07:40:46.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\BookingController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:40:08.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:39:56.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:39:50.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:39:10.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20251124070814_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Migrations\\20251124070814_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251124070814_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Migrations\\20251124070814_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251124070814_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:38:11.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAHgBAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:37:34.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:37:30.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:37:24.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookingDetail.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\BookingDetail.cs",
+              "RelativeDocumentMoniker": "Models\\BookingDetail.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\BookingDetail.cs",
+              "RelativeToolTip": "Models\\BookingDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:37:19.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Cinema.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\Cinema.cs",
+              "RelativeDocumentMoniker": "Models\\Cinema.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\Cinema.cs",
+              "RelativeToolTip": "Models\\Cinema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:37:15.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CinemaHall.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\CinemaHall.cs",
+              "RelativeDocumentMoniker": "Models\\CinemaHall.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\CinemaHall.cs",
+              "RelativeToolTip": "Models\\CinemaHall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:37:10.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:37:05.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Models\\Movie.cs",
+              "RelativeToolTip": "Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:36:39.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-25T02:55:49.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-25T02:55:42.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ShowtimesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Controllers\\ShowtimesController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ShowtimesController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Controllers\\ShowtimesController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ShowtimesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:55:33.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:55:32.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:55:21.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CinemaHallsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Controllers\\CinemaHallsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CinemaHallsController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Controllers\\CinemaHallsController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CinemaHallsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:55:29.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-24T08:50:39.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "wwwroot\\favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-11-25T02:56:08.26Z",
+              "EditorCaption": " -  [English (United States)] - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:56:31.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-25T03:16:09.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CinemasController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Controllers\\CinemasController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CinemasController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\BanVePhimOnline\\Areas\\Admin\\Controllers\\CinemasController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CinemasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:55:30.857Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

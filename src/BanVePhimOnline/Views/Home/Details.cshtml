@@ -1,0 +1,66 @@
+@model BanVePhimOnline.Models.Movie
+
+@{
+    ViewData["Title"] = "Chi Tiết Phim";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="@Model.PosterUrl" class="img-fluid rounded shadow-lg" alt="@Model.Title" style="width: 100%;">
+        </div>
+        <div class="col-md-8">
+            <h1 class="display-4 text-warning">@Model.Title</h1>
+            <p class="lead text-muted">@Model.Genre</p>
+            
+            <div class="mb-4">
+                <span class="badge bg-danger p-2 me-2">@Model.AgeRating</span>
+                <span class="badge bg-secondary p-2"><i class="bi bi-clock"></i> @Model.DurationMinutes phút</span>
+                <span class="badge bg-info text-dark p-2 ms-2">Khởi chiếu: @Model.ReleaseDate.ToString("dd/MM/yyyy")</span>
+            </div>
+
+            <p><strong>Đạo diễn:</strong> @Model.Director</p>
+            <p><strong>Diễn viên:</strong> @Model.Cast</p>
+            <p><strong>Nội dung:</strong> @Model.Description</p>
+            
+            @if (!string.IsNullOrEmpty(Model.TrailerUrl))
+            {
+                <div class="mb-4">
+                    <a href="@Model.TrailerUrl" target="_blank" class="btn btn-outline-light btn-lg"><i class="bi bi-play-circle"></i> Xem Trailer</a>
+                </div>
+            }
+
+            <hr class="bg-secondary" />
+            
+            <h3 class="text-warning mb-3">Lịch Chiếu</h3>
+            @if (Model.Showtimes != null && Model.Showtimes.Any())
+            {
+                var groupedShowtimes = Model.Showtimes.GroupBy(s => s.CinemaHall.Cinema.Name);
+                foreach (var cinemaGroup in groupedShowtimes)
+                {
+                    <div class="card bg-dark border-secondary mb-3">
+                        <div class="card-header border-secondary">
+                            <h5 class="mb-0 text-white">@cinemaGroup.Key</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex flex-wrap">
+                                @foreach (var showtime in cinemaGroup.OrderBy(s => s.StartTime))
+                                {
+                                    <a asp-controller="Booking" asp-action="SelectSeats" asp-route-showtimeId="@showtime.Id" class="btn btn-outline-warning m-2">
+                                        <div class="fw-bold">@showtime.StartTime.ToString("HH:mm")</div>
+                                        <small>@showtime.StartTime.ToString("dd/MM")</small> <br/>
+                                        <small>@showtime.Price.ToString("#,##0") đ</small>
+                                    </a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="alert alert-warning">Hiện chưa có lịch chiếu cho phim này.</div>
+            }
+        </div>
+    </div>
+</div>
